@@ -5,9 +5,11 @@
     background-color: black;
     margin-left: 445px;
     height: 500px;
+    border: 5px darkgoldenrod solid;
 }
 
 .a2 {
+
     width: 99%;
     text-align: right;
     color: white;
@@ -57,7 +59,7 @@
 }
 
 .a7 {
-    
+
     font-size: 50px;
     color: yellow;
     text-align: center;
@@ -71,8 +73,20 @@
         background-color: black;
         margin-left: 445px;
         height: 430px;
-        width:100%
+        width: 100%
     }
+
+    .a2 {
+        width: 96%;
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        border: black;
+        background-color: rgb(0, 0, 0);
+        height: 46px;
+        margin-top: 5px;
+    }
+
     .a7 {
         font-size: 16px;
         text-align: center;
@@ -123,8 +137,20 @@
         background-color: black;
         margin-left: 445px;
         height: 430px;
-        width:100%
+        width: 100%
     }
+
+    .a2 {
+        width: 96%;
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        border: black;
+        background-color: rgb(0, 0, 0);
+        height: 46px;
+        margin-top: 5px;
+    }
+
     .a7 {
         font-size: 20px;
         text-align: center;
@@ -143,7 +169,7 @@
         font-size: 15px;
         border-radius: 50px;
         height: 40px;
-        width: 47%;
+        width: 48%;
     }
 
     .a6 {
@@ -172,6 +198,17 @@
     .a7 {
         font-size: 20px;
 
+    }
+
+    .a2 {
+        width: 96%;
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        border: black;
+        background-color: rgb(0, 0, 0);
+        height: 46px;
+        margin-top: 5px;
     }
 
     .a3 {
@@ -217,7 +254,18 @@
         font-size: 32px;
 
     }
-  
+
+    .a2 {
+        width: 99%;
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        border: black;
+        background-color: rgb(0, 0, 0);
+        height: 46px;
+        margin-top: 5px;
+    }
+
 
     .a3 {
         font-size: 15px;
@@ -262,13 +310,24 @@
         font-size: 35px;
 
     }
-    
+
+    .a2 {
+        width: 99%;
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        border: black;
+        background-color: rgb(0, 0, 0);
+        height: 46px;
+        margin-top: 5px;
+    }
+
     .a3 {
         font-size: 15px;
         border: black;
         border-radius: 50px;
         margin-top: 10px;
-        width: 24%;
+        width: 26%;
         height: 32px
     }
 
@@ -276,7 +335,7 @@
         font-size: 15px;
         border-radius: 50px;
         height: 40px;
-        width: 50%;
+        width: 53%;
     }
 
     .a6 {
@@ -286,7 +345,7 @@
         background-color: rgba(152, 149, 149, 0.51);
         border-radius: 50px;
         margin-top: 10px;
-        width: 24%;
+        width: 26%;
         height: 32px
     }
 
