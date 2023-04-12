@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asul&family=Bona+Nova:wght@700&family=Cormorant+Garamond:ital,wght@1,300&family=DM+Serif+Display&family=Gloock&family=Italianno&family=Labrada:wght@600&family=Lobster&family=Lobster+Two:wght@700&family=Merriweather:wght@400;700&family=Noto+Serif:ital,wght@1,700&family=Playfair+Display:ital@1&family=Rampart+One&family=Roboto&family=Shantell+Sans:wght@300&family=Tilt+Prism&family=Vesper+Libre&display=swap');
 
 .a1 {
-    width: 26%;
     margin-top: 110px;
     background-color: black;
     margin-left: 445px;
@@ -16,7 +15,7 @@
     border: black;
     background-color: rgb(0, 0, 0);
     height: 86px;
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .a3 {
@@ -58,15 +57,24 @@
 }
 
 .a7 {
+    
     font-size: 50px;
     color: yellow;
     text-align: center;
     font-family: 'Merriweather', serif;
+    margin-top: 10px;
 }
 
-@media(max-width:680px) {
+@media(max-width:388px) {
+    .a1 {
+        margin-top: 110px;
+        background-color: black;
+        margin-left: 445px;
+        height: 430px;
+        width:100%
+    }
     .a7 {
-        font-size: 10px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -75,7 +83,7 @@
         border: black;
         border-radius: 50px;
         margin-top: 10px;
-        width: 19%;
+        width: 22%;
         height: 32px
     }
 
@@ -83,7 +91,7 @@
         font-size: 15px;
         border-radius: 50px;
         height: 40px;
-        width: 44%;
+        width: 47%;
     }
 
     .a6 {
@@ -93,7 +101,7 @@
         background-color: rgba(152, 149, 149, 0.51);
         border-radius: 50px;
         margin-top: 10px;
-        width: 19%;
+        width: 22%;
         height: 32px
     }
 
@@ -103,7 +111,59 @@
         background-color: darkgoldenrod;
         border-radius: 50px;
         margin-top: 10px;
-        width: 19%;
+        width: 22%;
+        height: 32px
+    }
+}
+
+
+@media (min-width:388px) and (max-width:680px) {
+    .a1 {
+        margin-top: 110px;
+        background-color: black;
+        margin-left: 445px;
+        height: 430px;
+        width:100%
+    }
+    .a7 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .a3 {
+        font-size: 15px;
+        border: black;
+        border-radius: 50px;
+        margin-top: 10px;
+        width: 23%;
+        height: 32px
+    }
+
+    .a4 {
+        font-size: 15px;
+        border-radius: 50px;
+        height: 40px;
+        width: 47%;
+    }
+
+    .a6 {
+        font-size: 15px;
+        color: white;
+        border: black;
+        background-color: rgba(152, 149, 149, 0.51);
+        border-radius: 50px;
+        margin-top: 10px;
+        width: 23%;
+        height: 32px
+    }
+
+    .a5 {
+        font-size: 15px;
+        border: black;
+        background-color: darkgoldenrod;
+        border-radius: 50px;
+        margin-top: 10px;
+        width: 23%;
         height: 32px
     }
 }
@@ -119,7 +179,7 @@
         border: black;
         border-radius: 50px;
         margin-top: 10px;
-        width: 24%;
+        width: 25%;
         height: 32px
     }
 
@@ -127,7 +187,7 @@
         font-size: 15px;
         border-radius: 50px;
         height: 40px;
-        width: 50%;
+        width: 51%;
     }
 
     .a6 {
@@ -137,7 +197,7 @@
         background-color: rgba(152, 149, 149, 0.51);
         border-radius: 50px;
         margin-top: 10px;
-        width: 24%;
+        width: 25%;
         height: 32px
     }
 
@@ -164,7 +224,7 @@
         border: black;
         border-radius: 50px;
         margin-top: 10px;
-        width: 24%;
+        width: 26%;
         height: 32px
     }
 
@@ -172,7 +232,7 @@
         font-size: 15px;
         border-radius: 50px;
         height: 40px;
-        width: 50%;
+        width: 53%;
     }
 
     .a6 {
@@ -182,7 +242,7 @@
         background-color: rgba(152, 149, 149, 0.51);
         border-radius: 50px;
         margin-top: 10px;
-        width: 24%;
+        width: 26%;
         height: 32px
     }
 
